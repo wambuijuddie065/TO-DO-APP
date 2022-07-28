@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="leftContainer">
+        <h3>NEW TASK</h3>
+        <form type="submit" action="" id="form">
+          <div class="titleArea">
+            <p>Title :</p>
+            <input id="title" type="text" placeholder="Enter task title " />
+          </div>
+          <div class="descArea">
+            <p>Description :</p>
+            <input
+              id="description"
+              type="text"
+              placeholder="Enter task description"
+            />
+          </div>
+          <div class="dateArea">
+            <p>Due date :</p>
+            <input type="date" name="date" id="date" />
+          </div>
+          <div class="btns">
+            <button id="addbtn" type="submit">CREATE TASK</button>
+            <button id="updatebtn" type="submit">UPDATE TASK</button>
+          </div>
+        </form>
+      </div>
+      <div class="rightContainer">
+        <div class="filters">
+          <div class="incomplete">
+            <h3>INCOMPLETE</h3>
+          </div>
+          <div class="complete">
+            <h3>COMPLETE</h3>
+          </div>
+        </div>
+
+        <div id="taskList">
+          <!-- <div id="task" class="task">
+            <div class="title">GYM</div>
+            <div class="description">
+              Renew membership Renew membership Renew membership Renew
+              membership
+            </div>
+            <div class="duedate"></div>
+
+            <div class="actions">
+              <button id="markbtn">complete</button>
+              <button id="editbtn">EDIT</button>
+              <button id="deletebtn">DELETE</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="/dest/app.js"></script>
+  </body>
+</html>

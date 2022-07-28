@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 100%;
+    padding: 25px;
+    margin: 0px auto;
+    gap: 200px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#form #title{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+#form #description{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+#form #date{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: solid 1px grey;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#addbtn, #updatebtn{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: gray;
+    transition: background-color 1.5s;
+    color:whitesmoke;
+    outline: none;
+    border:none
+    
+}
+#addbtn:hover{
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    cursor: pointer;
+}
+#updatebtn:hover{
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+    cursor: pointer;
+}
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+}
+.filters{
+    display: flex;
+    gap: 300px;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* height: 200px; */
+    /* border: solid 2px greenyellow; */
+    background-color: rgb(242, 235, 235);
+    border-radius: 6px;
+    padding: 2rem 3rem;
+    margin-bottom: 1rem;
+    /* gap: 10px; */
+}
+/* #markbtn{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+} */
+/* #editbtn, #deletebtn{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+
+} */
+.actions{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.actions > button{
+    padding: 0.5rem 1rem;
+    border-radius: 60px;
+}
